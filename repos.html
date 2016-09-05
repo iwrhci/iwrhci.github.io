@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>List of repositories</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/simplex/bootstrap.min.css" />
+    <link rel="StyleSheet" type="text/css" href="style.css" />
+    <style>
+    .scrollable-menu {
+        height: auto;
+        max-height: 100vh;
+        overflow-x: hidden;
+    }
+    </style>
+    
+<style>
+.hiddenRow {
+    padding: 0 !important;
+}
+</style>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">IWR-HCI research software</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Repositories <span class="caret"></span></a>
+          <ul class="dropdown-menu scrollable-menu">
+            <!-- <li><a href="#">Action</a></li> -->
+            
+            <li><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/CGP">CGP</a></li>
+            
+            <li><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/ccc3d">ccc3d</a></li>
+            
+            <li><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/cgp13">cgp13</a></li>
+            
+            <li><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/chatty">chatty</a></li>
+            
+            <li><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/cogstate">cogstate</a></li>
+            
+            <li><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/conservation_tracking_pipeline">conservation_tracking_pipeline</a></li>
+            
+            <li><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/dpct">dpct</a></li>
+            
+            <li><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/eventdetector">eventdetector</a></li>
+            
+            <li><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/fastfilters">fastfilters</a></li>
+            
+            <li><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/histopath">histopath</a></li>
+            
+            <li><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/hytra">hytra</a></li>
+            
+            <li><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/imgret">imgret</a></li>
+            
+            <li><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/libsvm_om">libsvm_om</a></li>
+            
+            <li><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/miGraphPy">miGraphPy</a></li>
+            
+            <li><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/mil_methods">mil_methods</a></li>
+            
+            <li><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/multiHypothesesTracking">multiHypothesesTracking</a></li>
+            
+            <li><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/multitaskmkl">multitaskmkl</a></li>
+            
+            <li><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/nifty">nifty</a></li>
+            
+            <li><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/nnet_core">nnet_core</a></li>
+            
+            <li><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/retinopathy">retinopathy</a></li>
+            
+            <li><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/sstd_python">sstd_python</a></li>
+            
+            <li><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/statistics-cgp">statistics-cgp</a></li>
+            
+            <li><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/struct-svm">struct-svm</a></li>
+            
+            <li><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/vecvec">vecvec</a></li>
+            
+            <li><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/visualizatino">visualizatino</a></li>
+            
+          </ul>
+        </li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
+
+
+<div class="container" role="main">
+    <div class="panel panel-default">
+        <!-- Default panel contents -->
+        <div class="panel-heading">
+            <h2>List of repositories</h2>
+            <p>
+                Here follows the list of research software projects hosted on the <a href="http://hci-repo.iwr.uni-heidelberg.de">GitLab instance of the HCI</a>.
+                In order to access the homepages of the individual projects, you will need to provide your HCI LDAP authentication. All projects are collectively
+                grouped under the GitLab <a href="http://hci-repo.iwr.uni-heidelberg.de/groups/research_code">research_code</a> group.
+            </p>
+            <p>
+                Click on the <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span> icon for more information on the individual projects.
+                Project pages can be reached by clicking either on the project name or on the <span class="glyphicon glyphicon-link" aria-hidden="true"></span> icon.
+                The latest version of the code can always be downloaded directly by clicking on the <span class="glyphicon glyphicon-download" aria-hidden="true"></span> icon.
+                External project pages (e.g., on GitHub or BitBucket) are reachable via the <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span> icon.
+                Bibliographical references are listed when available.
+            </p>
+        </div>
+        <table class="table table-condensed table-striped" style="border-collapse:collapse;">
+            <thead>
+                <tr>
+                    <th>Project name</th>
+                    <th>Description</th>
+                    <th>Author(s)</th>
+                    <th style="text-align:center">Bibrefs</th>
+                    <th>Links</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td style="white-space: nowrap;"><a style="margin: 0px 10px 0px 0px" class="accordion-toggle" data-toggle="collapse" data-target="#CGP"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="cursor:pointer"></span></a><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/CGP">CGP</a></td>
+                    <td>Cartesian grid partitioning.</td>
+                    <td><a href="https://www.xing.com/profile/Thorben_Kroeger">Thorben Kroeger</a>, <a href="https://www1.iwr.uni-heidelberg.de/iwr/public/people/de/3678">Niko Krasowski</a></td>
+                    <td style="text-align:center"></td>
+                    <td style="white-space: nowrap;">
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/CGP"><span title="Project page" class="glyphicon glyphicon-link" aria-hidden="true"></span></a>
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/CGP/repository/archive.zip?ref=master"><span title="Download the latest version" class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hiddenRow">
+                        <div class="accordion-body collapse" id="CGP">This library depends on <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/vecvec">vecvec</a> and <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/chatty">chatty</a>.</div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="white-space: nowrap;"><a style="margin: 0px 10px 0px 0px" class="accordion-toggle" data-toggle="collapse" data-target="#ccc3d"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="cursor:pointer"></span></a><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/ccc3d">ccc3d</a></td>
+                    <td>A multicut solver based on <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/CGP">CGP</a>.</td>
+                    <td><a href="https://www.xing.com/profile/Thorben_Kroeger">Thorben Kroeger</a>, <a href="https://www1.iwr.uni-heidelberg.de/iwr/public/people/de/3678">Niko Krasowski</a></td>
+                    <td style="text-align:center"></td>
+                    <td style="white-space: nowrap;">
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/ccc3d"><span title="Project page" class="glyphicon glyphicon-link" aria-hidden="true"></span></a>
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/ccc3d/repository/archive.zip?ref=master"><span title="Download the latest version" class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hiddenRow">
+                        <div class="accordion-body collapse" id="ccc3d">This library depends on <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/CGP">CGP</a>.</div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="white-space: nowrap;"><a style="margin: 0px 10px 0px 0px" class="accordion-toggle" data-toggle="collapse" data-target="#cgp13"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="cursor:pointer"></span></a><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/cgp13">cgp13</a></td>
+                    <td>Cartesian Grid Partitioning.</td>
+                    <td><a href="http://www.andres.sc/">Bjoern Andres</a>, <a href="https://www.xing.com/profile/Thorben_Kroeger">Thorben Kroeger</a></td>
+                    <td style="text-align:center"></td>
+                    <td style="white-space: nowrap;">
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/cgp13"><span title="Project page" class="glyphicon glyphicon-link" aria-hidden="true"></span></a>
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/cgp13/repository/archive.zip?ref=master"><span title="Download the latest version" class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hiddenRow">
+                        <div class="accordion-body collapse" id="cgp13">A C++ library for cartesian grid partitioning, with a matlab interface.</div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="white-space: nowrap;"><a style="margin: 0px 10px 0px 0px" class="accordion-toggle" data-toggle="collapse" data-target="#chatty"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="cursor:pointer"></span></a><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/chatty">chatty</a></td>
+                    <td>A logger for both C++ and Python.</td>
+                    <td><a href="https://www.xing.com/profile/Thorben_Kroeger">Thorben Kroeger</a></td>
+                    <td style="text-align:center"></td>
+                    <td style="white-space: nowrap;">
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/chatty"><span title="Project page" class="glyphicon glyphicon-link" aria-hidden="true"></span></a>
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/chatty/repository/archive.zip?ref=master"><span title="Download the latest version" class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hiddenRow">
+                        <div class="accordion-body collapse" id="chatty">This is a dependency for <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/CGP">CGP</a>.</div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="white-space: nowrap;"><a style="margin: 0px 10px 0px 0px" class="accordion-toggle" data-toggle="collapse" data-target="#cogstate"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="cursor:pointer"></span></a><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/cogstate">cogstate</a></td>
+                    <td>Multitask learning using regularized multiple kernel learning.</td>
+                    <td><a href="https://hci.iwr.uni-heidelberg.de/mkandemi">Melih Kandemir</a></td>
+                    <td style="text-align:center"><a href="http://link.springer.com/chapter/10.1007%2F978-3-642-24958-7_58">[0]</a></td>
+                    <td style="white-space: nowrap;">
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/cogstate"><span title="Project page" class="glyphicon glyphicon-link" aria-hidden="true"></span></a>
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/cogstate/repository/archive.zip?ref=master"><span title="Download the latest version" class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hiddenRow">
+                        <div class="accordion-body collapse" id="cogstate">Code from the paper <em>Multitask Learning Using Regularized Multiple Kernel Learning</em>.</div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="white-space: nowrap;"><a style="margin: 0px 10px 0px 0px" class="accordion-toggle" data-toggle="collapse" data-target="#conservation_tracking_pipeline"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="cursor:pointer"></span></a><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/conservation_tracking_pipeline">conservation_tracking_pipeline</a></td>
+                    <td>C++ Pipeline to run Conservation Tracking.</td>
+                    <td><a href="http://www.chaubold.de/Carsten_Haubold/Welcome.html">Carsten Haubold</a>, <a href="https://www.janelia.org/people/philipp-hanslovsky">Philipp Hanslovsky</a>, <a href="https://www.researchgate.net/profile/Martin_Schiegg">Martin Schiegg</a>, David Stoeckel</td>
+                    <td style="text-align:center"><a href="http://www.cv-foundation.org/openaccess/content_iccv_2013/html/Schiegg_Conservation_Tracking_2013_ICCV_paper.html">[1]</a></td>
+                    <td style="white-space: nowrap;">
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/conservation_tracking_pipeline"><span title="Project page" class="glyphicon glyphicon-link" aria-hidden="true"></span></a>
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/conservation_tracking_pipeline/repository/archive.zip?ref=master"><span title="Download the latest version" class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                        
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/conservation_tracking_pipeline" target="_blank"><span title="Link to external project page" class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hiddenRow">
+                        <div class="accordion-body collapse" id="conservation_tracking_pipeline">This pipeline runs the conservation tracking algorithm given a sequence of tiff images and pre-trained Random Forest classifiers. The classifiers can be extracted from previously trained ilastik projects for pixel classification and tracking, but every step will be rerun in the C++ pipeline (allows for batch-segmenting and tracking).</div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="white-space: nowrap;"><a style="margin: 0px 10px 0px 0px" class="accordion-toggle" data-toggle="collapse" data-target="#dpct"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="cursor:pointer"></span></a><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/dpct">dpct</a></td>
+                    <td>Dynamic programming cell tracking.</td>
+                    <td><a href="http://www.chaubold.de/Carsten_Haubold/Welcome.html">Carsten Haubold</a></td>
+                    <td style="text-align:center"><a href="https://hci.iwr.uni-heidelberg.de/node/6077">[2]</a></td>
+                    <td style="white-space: nowrap;">
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/dpct"><span title="Project page" class="glyphicon glyphicon-link" aria-hidden="true"></span></a>
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/dpct/repository/archive.zip?ref=master"><span title="Download the latest version" class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                        
+                        <a href="https://github.com/chaubold/dpct" target="_blank"><span title="Link to external project page" class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hiddenRow">
+                        <div class="accordion-body collapse" id="dpct">This is a stand-alone tool for running tracking of divisible objects using a modified successive shortest paths solver.</div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="white-space: nowrap;"><a style="margin: 0px 10px 0px 0px" class="accordion-toggle" data-toggle="collapse" data-target="#eventdetector"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="cursor:pointer"></span></a><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/eventdetector">eventdetector</a></td>
+                    <td>Cell event detection.</td>
+                    <td><a href="https://hci.iwr.uni-heidelberg.de/mkandemi">Melih Kandemir</a></td>
+                    <td style="text-align:center"><a href="http://link.springer.com/chapter/10.1007%2F978-3-319-24574-4_38#p">[3]</a></td>
+                    <td style="white-space: nowrap;">
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/eventdetector"><span title="Project page" class="glyphicon glyphicon-link" aria-hidden="true"></span></a>
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/eventdetector/repository/archive.zip?ref=master"><span title="Download the latest version" class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hiddenRow">
+                        <div class="accordion-body collapse" id="eventdetector">Code from the paper <em>Cell event detection in phase-contrast microscopy sequences from few annotations</em>.</div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="white-space: nowrap;"><a style="margin: 0px 10px 0px 0px" class="accordion-toggle" data-toggle="collapse" data-target="#fastfilters"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="cursor:pointer"></span></a><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/fastfilters">fastfilters</a></td>
+                    <td>Fast gaussian and derivative convolutional filters.</td>
+                    <td><a href="https://github.com/svenpeter42">Sven Peter</a></td>
+                    <td style="text-align:center"></td>
+                    <td style="white-space: nowrap;">
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/fastfilters"><span title="Project page" class="glyphicon glyphicon-link" aria-hidden="true"></span></a>
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/fastfilters/repository/archive.zip?ref=master"><span title="Download the latest version" class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                        
+                        <a href="https://github.com/svenpeter42/fastfilters" target="_blank"><span title="Link to external project page" class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hiddenRow">
+                        <div class="accordion-body collapse" id="fastfilters">Optimised for AVX.</div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="white-space: nowrap;"><a style="margin: 0px 10px 0px 0px" class="accordion-toggle" data-toggle="collapse" data-target="#histopath"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="cursor:pointer"></span></a><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/histopath">histopath</a></td>
+                    <td>Histopathology cancer diagnosis by cell graphs.</td>
+                    <td><a href="https://hci.iwr.uni-heidelberg.de/mkandemi">Melih Kandemir</a></td>
+                    <td style="text-align:center"><a href="http://link.springer.com/chapter/10.1007%2F978-3-319-10470-6_29">[4]</a></td>
+                    <td style="white-space: nowrap;">
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/histopath"><span title="Project page" class="glyphicon glyphicon-link" aria-hidden="true"></span></a>
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/histopath/repository/archive.zip?ref=master"><span title="Download the latest version" class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hiddenRow">
+                        <div class="accordion-body collapse" id="histopath">Code from the paper <em>Empowering Multiple Instance Histopathology Cancer Diagnosis by Cell Graphs</em>.</div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="white-space: nowrap;"><a style="margin: 0px 10px 0px 0px" class="accordion-toggle" data-toggle="collapse" data-target="#hytra"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="cursor:pointer"></span></a><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/hytra">hytra</a></td>
+                    <td>Tracking Toolbox of the IAL Lab @ uni-heidelberg.de.</td>
+                    <td><a href="http://www.chaubold.de/Carsten_Haubold/Welcome.html">Carsten Haubold</a>, <a href="https://hci.iwr.uni-heidelberg.de/user/543">Letitia Parcalabescu</a>, <a href="https://hci.iwr.uni-heidelberg.de/user/547">Steffen Wolf</a>, <a href="https://www.researchgate.net/profile/Martin_Schiegg">Martin Schiegg</a>, Bernhard Kausler</td>
+                    <td style="text-align:center"></td>
+                    <td style="white-space: nowrap;">
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/hytra"><span title="Project page" class="glyphicon glyphicon-link" aria-hidden="true"></span></a>
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/hytra/repository/archive.zip?ref=master"><span title="Download the latest version" class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                        
+                        <a href="https://github.com/chaubold/hytra" target="_blank"><span title="Link to external project page" class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hiddenRow">
+                        <div class="accordion-body collapse" id="hytra">Tracking Toolbox of the IAL Lab @ uni-heidelberg.de.</div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="white-space: nowrap;"><a style="margin: 0px 10px 0px 0px" class="accordion-toggle" data-toggle="collapse" data-target="#imgret"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="cursor:pointer"></span></a><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/imgret">imgret</a></td>
+                    <td>Utilities for Gaussian processes for ML.</td>
+                    <td><a href="https://hci.iwr.uni-heidelberg.de/mkandemi">Melih Kandemir</a></td>
+                    <td style="text-align:center"></td>
+                    <td style="white-space: nowrap;">
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/imgret"><span title="Project page" class="glyphicon glyphicon-link" aria-hidden="true"></span></a>
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/imgret/repository/archive.zip?ref=master"><span title="Download the latest version" class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hiddenRow">
+                        <div class="accordion-body collapse" id="imgret">Utilities for Gaussian processes for ML.</div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="white-space: nowrap;"><a style="margin: 0px 10px 0px 0px" class="accordion-toggle" data-toggle="collapse" data-target="#libsvm_om"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="cursor:pointer"></span></a><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/libsvm_om">libsvm_om</a></td>
+                    <td>Octave/Matlab interface for libsvm.</td>
+                    <td>Jun-Cheng Chen</td>
+                    <td style="text-align:center"></td>
+                    <td style="white-space: nowrap;">
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/libsvm_om"><span title="Project page" class="glyphicon glyphicon-link" aria-hidden="true"></span></a>
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/libsvm_om/repository/archive.zip?ref=master"><span title="Download the latest version" class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                        
+                        <a href="https://www.csie.ntu.edu.tw/~cjlin/libsvm/" target="_blank"><span title="Link to external project page" class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hiddenRow">
+                        <div class="accordion-body collapse" id="libsvm_om">This tool provides a simple interface to LIBSVM, a library for support vector machines (<a href="http://www.csie.ntu.edu.tw/~cjlin/libsvm">http://www.csie.ntu.edu.tw/~cjlin/libsvm</a>).</div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="white-space: nowrap;"><a style="margin: 0px 10px 0px 0px" class="accordion-toggle" data-toggle="collapse" data-target="#miGraphPy"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="cursor:pointer"></span></a><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/miGraphPy">miGraphPy</a></td>
+                    <td>A Python implementation of the multiple instance learning (MIL) method miGraph.</td>
+                    <td><a href="https://github.com/manuSrep">Manuel Tuschen</a></td>
+                    <td style="text-align:center"><a href="http://doi.acm.org/10.1145/1553374.1553534">[5]</a></td>
+                    <td style="white-space: nowrap;">
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/miGraphPy"><span title="Project page" class="glyphicon glyphicon-link" aria-hidden="true"></span></a>
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/miGraphPy/repository/archive.zip?ref=master"><span title="Download the latest version" class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                        
+                        <a href="https://github.com/manuSrep/miGraphPy" target="_blank"><span title="Link to external project page" class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hiddenRow">
+                        <div class="accordion-body collapse" id="miGraphPy">A Python implementation of the multiple instance learning (MIL) method miGraph.</div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="white-space: nowrap;"><a style="margin: 0px 10px 0px 0px" class="accordion-toggle" data-toggle="collapse" data-target="#mil_methods"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="cursor:pointer"></span></a><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/mil_methods">mil_methods</a></td>
+                    <td>A collection of implementations of methods for multiple instance learning.</td>
+                    <td><a href="https://hci.iwr.uni-heidelberg.de/mkandemi">Melih Kandemir</a></td>
+                    <td style="text-align:center"></td>
+                    <td style="white-space: nowrap;">
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/mil_methods"><span title="Project page" class="glyphicon glyphicon-link" aria-hidden="true"></span></a>
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/mil_methods/repository/archive.zip?ref=master"><span title="Download the latest version" class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hiddenRow">
+                        <div class="accordion-body collapse" id="mil_methods">A collection of implementations of methods for multiple instance learning.</div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="white-space: nowrap;"><a style="margin: 0px 10px 0px 0px" class="accordion-toggle" data-toggle="collapse" data-target="#multiHypothesesTracking"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="cursor:pointer"></span></a><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/multiHypothesesTracking">multiHypothesesTracking</a></td>
+                    <td>Tool for tracking of divisible objects.</td>
+                    <td><a href="http://www.chaubold.de/Carsten_Haubold/Welcome.html">Carsten Haubold</a></td>
+                    <td style="text-align:center"></td>
+                    <td style="white-space: nowrap;">
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/multiHypothesesTracking"><span title="Project page" class="glyphicon glyphicon-link" aria-hidden="true"></span></a>
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/multiHypothesesTracking/repository/archive.zip?ref=master"><span title="Download the latest version" class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                        
+                        <a href="https://github.com/chaubold/multiHypothesesTracking" target="_blank"><span title="Link to external project page" class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hiddenRow">
+                        <div class="accordion-body collapse" id="multiHypothesesTracking">This is a standalone tool for running tracking of divisible objects, with competing detection hypotheses in each frame. When specifying a ground truth labeling for a dataset, the weights can be learned using structured learning (by OpenGM's implementation of SBMRM). The tracking problem is then solved as ILP by Gurobi or CPLEX, depending on how this tool was compiled.</div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="white-space: nowrap;"><a style="margin: 0px 10px 0px 0px" class="accordion-toggle" data-toggle="collapse" data-target="#multitaskmkl"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="cursor:pointer"></span></a><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/multitaskmkl">multitaskmkl</a></td>
+                    <td>Multitask learning using regularized multiple kernel learning.</td>
+                    <td><a href="https://hci.iwr.uni-heidelberg.de/mkandemi">Melih Kandemir</a></td>
+                    <td style="text-align:center"><a href="http://link.springer.com/chapter/10.1007%2F978-3-642-24958-7_58">[6]</a></td>
+                    <td style="white-space: nowrap;">
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/multitaskmkl"><span title="Project page" class="glyphicon glyphicon-link" aria-hidden="true"></span></a>
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/multitaskmkl/repository/archive.zip?ref=master"><span title="Download the latest version" class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hiddenRow">
+                        <div class="accordion-body collapse" id="multitaskmkl">Code from the paper <em>Multitask learning using regularized multiple kernel learning</em>.</div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="white-space: nowrap;"><a style="margin: 0px 10px 0px 0px" class="accordion-toggle" data-toggle="collapse" data-target="#nifty"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="cursor:pointer"></span></a><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/nifty">nifty</a></td>
+                    <td>A library for Multicuts and general image and graph segmentation.</td>
+                    <td><a href="https://github.com/DerThorsten">Thorsten Beier</a></td>
+                    <td style="text-align:center"><a href="http://ipa.iwr.uni-heidelberg.de/ipabib/Papers/kappes-emmcvpr2011.pdf">[7]</a>, <a href="http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Beier_Fusion_Moves_for_2015_CVPR_paper.pdf">[8]</a></td>
+                    <td style="white-space: nowrap;">
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/nifty"><span title="Project page" class="glyphicon glyphicon-link" aria-hidden="true"></span></a>
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/nifty/repository/archive.zip?ref=master"><span title="Download the latest version" class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                        
+                        <a href="https://github.com/DerThorsten/nifty" target="_blank"><span title="Link to external project page" class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hiddenRow">
+                        <div class="accordion-body collapse" id="nifty">A nifty library for Multicuts and general image and graph segmentation.</div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="white-space: nowrap;"><a style="margin: 0px 10px 0px 0px" class="accordion-toggle" data-toggle="collapse" data-target="#nnet_core"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="cursor:pointer"></span></a><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/nnet_core">nnet_core</a></td>
+                    <td>Basic utilities for the implementation of neural networks in Python.</td>
+                    <td>Gregor Urban</td>
+                    <td style="text-align:center"></td>
+                    <td style="white-space: nowrap;">
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/nnet_core"><span title="Project page" class="glyphicon glyphicon-link" aria-hidden="true"></span></a>
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/nnet_core/repository/archive.zip?ref=master"><span title="Download the latest version" class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hiddenRow">
+                        <div class="accordion-body collapse" id="nnet_core">Basic utilities for the implementation of neural networks in Python.</div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="white-space: nowrap;"><a style="margin: 0px 10px 0px 0px" class="accordion-toggle" data-toggle="collapse" data-target="#retinopathy"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="cursor:pointer"></span></a><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/retinopathy">retinopathy</a></td>
+                    <td>Detection of retinopathy of prematurity using multiple instance learning.</td>
+                    <td><a href="https://hci.iwr.uni-heidelberg.de/mkandemi">Melih Kandemir</a></td>
+                    <td style="text-align:center"><a href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7275949&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D7275949">[9]</a></td>
+                    <td style="white-space: nowrap;">
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/retinopathy"><span title="Project page" class="glyphicon glyphicon-link" aria-hidden="true"></span></a>
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/retinopathy/repository/archive.zip?ref=master"><span title="Download the latest version" class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hiddenRow">
+                        <div class="accordion-body collapse" id="retinopathy">Code from the paper <em>Detection of retinopathy of prematurity using multiple instance learning</em>.</div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="white-space: nowrap;"><a style="margin: 0px 10px 0px 0px" class="accordion-toggle" data-toggle="collapse" data-target="#sstd_python"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="cursor:pointer"></span></a><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/sstd_python">sstd_python</a></td>
+                    <td>Python / cython implementation of sparse space-time deconvolution for Calcium image analysis.</td>
+                    <td><a href="https://github.com/svenpeter42">Sven Peter</a></td>
+                    <td style="text-align:center"><a href="https://papers.nips.cc/paper/5342-sparse-space-time-deconvolution-for-calcium-image-analysis.pdf">[10]</a></td>
+                    <td style="white-space: nowrap;">
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/sstd_python"><span title="Project page" class="glyphicon glyphicon-link" aria-hidden="true"></span></a>
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/sstd_python/repository/archive.zip?ref=master"><span title="Download the latest version" class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                        
+                        <a href="https://github.com/svenpeter42/sstd_python" target="_blank"><span title="Link to external project page" class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hiddenRow">
+                        <div class="accordion-body collapse" id="sstd_python">Code from the paper <em>Sparse space-time deconvolution for Calcium image analysis</em>.</div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="white-space: nowrap;"><a style="margin: 0px 10px 0px 0px" class="accordion-toggle" data-toggle="collapse" data-target="#statistics-cgp"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="cursor:pointer"></span></a><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/statistics-cgp">statistics-cgp</a></td>
+                    <td>Statistics for <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/CGP">CGP</a>.</td>
+                    <td><a href="https://www.xing.com/profile/Thorben_Kroeger">Thorben Kroeger</a></td>
+                    <td style="text-align:center"></td>
+                    <td style="white-space: nowrap;">
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/statistics-cgp"><span title="Project page" class="glyphicon glyphicon-link" aria-hidden="true"></span></a>
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/statistics-cgp/repository/archive.zip?ref=master"><span title="Download the latest version" class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hiddenRow">
+                        <div class="accordion-body collapse" id="statistics-cgp">Evaluate average sizes of 1-sets, 2-sets, 3-sets as well as compression of topological grid blocks using the <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/CGP">CGP</a> library. This library depends on <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/CGP">CGP</a>.</div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="white-space: nowrap;"><a style="margin: 0px 10px 0px 0px" class="accordion-toggle" data-toggle="collapse" data-target="#struct-svm"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="cursor:pointer"></span></a><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/struct-svm">struct-svm</a></td>
+                    <td>Structured SVM playground.</td>
+                    <td><a href="http://www.chaubold.de/Carsten_Haubold/Welcome.html">Carsten Haubold</a></td>
+                    <td style="text-align:center"></td>
+                    <td style="white-space: nowrap;">
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/struct-svm"><span title="Project page" class="glyphicon glyphicon-link" aria-hidden="true"></span></a>
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/struct-svm/repository/archive.zip?ref=master"><span title="Download the latest version" class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                        
+                        <a href="https://bitbucket.org/chaubold/struct-svm" target="_blank"><span title="Link to external project page" class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hiddenRow">
+                        <div class="accordion-body collapse" id="struct-svm">This is a python playground using dlib, gurobipy and opengm to explore structured svms and their solvers.</div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="white-space: nowrap;"><a style="margin: 0px 10px 0px 0px" class="accordion-toggle" data-toggle="collapse" data-target="#vecvec"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="cursor:pointer"></span></a><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/vecvec">vecvec</a></td>
+                    <td>A serializable replacement for std::vector&lt;std::vector&lt;T&gt;&gt;.</td>
+                    <td><a href="https://www.xing.com/profile/Thorben_Kroeger">Thorben Kroeger</a></td>
+                    <td style="text-align:center"></td>
+                    <td style="white-space: nowrap;">
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/vecvec"><span title="Project page" class="glyphicon glyphicon-link" aria-hidden="true"></span></a>
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/vecvec/repository/archive.zip?ref=master"><span title="Download the latest version" class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hiddenRow">
+                        <div class="accordion-body collapse" id="vecvec">This is a dependency for <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/CGP">CGP</a>. Use case: loading a fixed inverse relabeling (one to many and many to many relation) of millions of objects from disk.</div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td style="white-space: nowrap;"><a style="margin: 0px 10px 0px 0px" class="accordion-toggle" data-toggle="collapse" data-target="#visualizatino"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="cursor:pointer"></span></a><a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/visualizatino">visualizatino</a></td>
+                    <td>2D and 3D visualisation of neurological datasets.</td>
+                    <td><a href="https://www.xing.com/profile/Thorben_Kroeger">Thorben Kroeger</a>, <a href="https://www1.iwr.uni-heidelberg.de/iwr/public/people/de/3678">Niko Krasowski</a></td>
+                    <td style="text-align:center"></td>
+                    <td style="white-space: nowrap;">
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/visualizatino"><span title="Project page" class="glyphicon glyphicon-link" aria-hidden="true"></span></a>
+                        <a href="http://hci-repo.iwr.uni-heidelberg.de/research_code/visualizatino/repository/archive.zip?ref=master"><span title="Download the latest version" class="glyphicon glyphicon-download" aria-hidden="true"></span></a>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" class="hiddenRow">
+                        <div class="accordion-body collapse" id="visualizatino">2D and 3D visualisation of neurological datasets.</div>
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
